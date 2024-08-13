@@ -48,7 +48,7 @@ public class DownloadZip {
             String path = "C:\\\\Users\\\\nedim göktuð tabak\\\\Desktop\\\\git\\\\a.zip";
             createEmptyZip(path);
 			File outFile = new File(path);  // Dosyanýn kaydedileceði yolu belirtin
-          
+           
             
             
             
