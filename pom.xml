@@ -3,9 +3,26 @@
   <groupId>space-track</groupId>
   <artifactId>12-com.space.track.API</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <!-- Dependency for UnZipping Library-->
+    
   <dependencies>
+  
+  <!-- The Apache Commons Compress library defines an API for working with 
+  ar, cpio, Unix dump, tar, zip, gzip, XZ, Pack200, bzip2, 7z, arj, LZMA, snappy, 
+  DEFLATE, lz4, Brotli, Zstandard, DEFLATE64 and Z files.-->
+  <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-compress</artifactId>
+    <version>1.21</version>
+</dependency>
+
+<dependency>
+  <groupId>commons-io</groupId>
+  <artifactId>commons-io</artifactId>
+  <version>2.16.1</version>
+</dependency>
+
+    <!-- Dependency for UnZipping Library-->
+
   <dependency>
     <groupId>net.lingala.zip4j</groupId>
     <artifactId>zip4j</artifactId>
