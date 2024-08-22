@@ -39,8 +39,8 @@ public class DownloadZip {
             //AuthPath for Login Page
             String authPath = "/ajaxauth/login";
             //Username and Password (Space-Track.org)
-            String username = "goktug.tabakk@gmail.com";  
-            String password = "ASDFmve6723!LKASD_";  // 
+            String username = "email";  
+            String password = "password";  // 
             //URL of Zip File You Want To Download
             String downloadURL = "https://www.space-track.org/publicfiles/query/class/download?name=SpaceX_Ephemeris_552_SpaceX_2024-08-12UTC13:21:02_01.zip";
             //Output File (.zip) For Download Path
