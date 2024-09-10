@@ -1,3 +1,4 @@
+package public_files;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,7 +16,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-public class DownloadZip {
+public class DownloadBasicZip {
 
 	final static byte[] EmptyZip={80,75,05,06,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00};
 	public static void createEmptyZip(String path){

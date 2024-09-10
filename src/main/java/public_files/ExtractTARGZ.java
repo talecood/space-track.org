@@ -1,3 +1,4 @@
+package public_files;
 import java.io.*;
 
 import java.util.zip.GZIPInputStream; // GZ dosyasýný açmak için
@@ -15,7 +16,7 @@ public class ExtractTARGZ {
             // GZ dosyasýný açmak için GZIPInputStream kullanýyoruz.
             GZIPInputStream gzipInputStream = new GZIPInputStream(
             									//Buraya indirdiðimiz tar.gz dosyanýnýn bilgisayardaki yolunu koyuyoruz.
-                    new FileInputStream(new File("C:\\Users\\nedim göktuð tabak\\Desktop\\dwsample-tar-gz.tar.gz")));
+                    new FileInputStream(new File("C:\\Users\\nedim göktuð tabak\\Desktop\\spacetrack\\vectors_24253.tar.gz")));
             
             // TAR dosyasýný okumak için TarArchiveInputStream kullanýyoruz.
             tarInputStream = new TarArchiveInputStream(gzipInputStream);
@@ -28,7 +29,7 @@ public class ExtractTARGZ {
                 
                 // Çýkartýlacak dosyalar için hedef dizini belirliyoruz.
                 //Aldýðýmýz dosyanýn ismini sonuna ekleyip (individualFiles) klasör içine dosyayý koyuyoruz.
-                String outputPath = "C:\\Users\\nedim göktuð tabak\\Desktop\\EXAMPLE_TAR_FILE_TO_UNZIP\\" + individualFiles;
+                String outputPath = "C:\\Users\\nedim göktuð tabak\\Desktop\\spacetrack\\ExtractTar" + individualFiles;
                 File outputFileObj = new File(outputPath);
 
                 // Eðer gelen dosya bir klasörse, bu klasörü oluþturuyoruz.
